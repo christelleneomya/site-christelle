@@ -664,21 +664,33 @@ img {
 }
 
 .cta-box {
-  max-width: 780px;
+  max-width: 980px; /* ÉLARGIT la boîte pour laisser respirer le texte */
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .cta-box h2 {
   font-size: 2.3rem;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   line-height: 1.25;
 }
 
 .cta-desc {
   font-size: 1.15rem;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #F2DCE5;
   margin-bottom: 35px;
+  max-width: 100%;
+}
+
+.cta-desc p {
+  margin: 0 0 14px 0; /* Un tout petit peu plus d'espace entre chaque ligne */
+  line-height: 1.5;
+}
+
+.cta-desc p:last-child {
+  margin-bottom: 35px; /* Espace avant le bouton */
 }
 
 .cta-box .btn-primary {
